@@ -1,6 +1,5 @@
 fibber = [0,1]
-f0 = 0
-f1 = 1
+f0, f1 = 0, 1
 while f1 < 4000001 
 	fibber.push(f0 + f1)
 	f1 = fibber[fibber.length-1]
